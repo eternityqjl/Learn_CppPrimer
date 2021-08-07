@@ -13,7 +13,7 @@ int main()
     while (curr != flst.end())
     {
         if (*curr % 2)
-            curr = flst.erase_after(prev);
+            curr = flst.erase_after(prev);  //删除prev指向元素之后的元素
         else
         {
             prev = curr;

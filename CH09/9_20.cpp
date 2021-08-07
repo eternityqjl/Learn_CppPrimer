@@ -33,6 +33,12 @@ int main()
         cout << i << " ";
     cout << endl;
 
+    int num1 = dq1.size();
+    int num2 = dq2.size();
+
+    cout << "The number of even: " << num1 << endl;
+    cout << "The number of odd: " << num2 << endl;
+
     system("pause");
     return 0;
 }
